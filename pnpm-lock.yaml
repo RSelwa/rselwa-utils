@@ -1,0 +1,37 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  '@types/node':
+    specifier: ^22.9.0
+    version: registry.npmjs.org/@types/node@22.9.0
+  typescript:
+    specifier: ^5.6.3
+    version: registry.npmjs.org/typescript@5.6.3
+
+packages:
+
+  registry.npmjs.org/@types/node@22.9.0:
+    resolution: {integrity: sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/node/-/node-22.9.0.tgz}
+    name: '@types/node'
+    version: 22.9.0
+    dependencies:
+      undici-types: registry.npmjs.org/undici-types@6.19.8
+    dev: true
+
+  registry.npmjs.org/typescript@5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz}
+    name: typescript
+    version: 5.6.3
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
+
+  registry.npmjs.org/undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz}
+    name: undici-types
+    version: 6.19.8
+    dev: true
